@@ -1,0 +1,172 @@
+.app {
+    color: white;
+    /* height: 100vh; */
+    position: relative;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+   }
+   
+   .header {
+    margin-bottom: 20px;
+    position: sticky;
+    background-color: #01012c;
+    width: 100vw;
+    margin-top: -20px;
+    margin-left: -20px;
+    padding-top: 10px;
+   }
+   .chatBox {
+    margin-top: -18px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: 62vh;
+    gap: 300px;
+   }
+   
+   .profile-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: #4a4a4a;
+    border-radius: 50%;
+    margin: 0 auto;
+   }
+
+   .title-Heading{
+    text-align: center;
+    box-sizing: content-box;
+   }
+   .bottom-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+   }
+   .answerBox{
+    height: 100%;
+    margin-bottom: 20px;
+   }
+   .submitQuestionBox{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    /* background-color: rgb(65, 65, 243); #00001c*/
+   }
+   .submitQuestionBox>p{
+    background-color: rgb(105, 105, 241);
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 24px;
+   }
+   .submitAnswerBox{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px;
+   }
+   .submitAnswerBox>p{
+    background-color: #00001c;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(105, 105, 241);
+    font-size: 24px;
+   }
+   .container-input{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 30px 10px 40px 10px;
+   }
+
+   .input-containers {
+    flex: 1;
+    position: relative;
+    width: 320px;
+    margin-bottom: 40px;
+    /* margin: 20px; */
+  }
+  
+  .input-containers input[type="text"] {
+    width: 100%;
+    padding: 20px 60px 20px 10px; 
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 28px;
+    cursor: pointer;
+  }
+ .icons {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    width: 40px;
+    height: 40px; 
+    background-color: white;
+    border: #00000e;
+    border-radius: 5px;
+  } 
+
+  .send-logo{
+    transform: rotate(0.142rad);
+    padding: 10px;
+    width: 60px;
+    height: 55px;
+    margin-right: 10px;
+  }
+   .input-area {
+    display: flex;
+    margin-bottom: 20px;
+   }
+   
+   .input-area input {
+    flex-grow: 1;
+    background-color: hashtag#2a2a2a;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+   }
+   
+   .quick-actions {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 20px;
+   }
+   
+   .action-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    border: none;
+    color: white;
+    margin-right: 15px;
+   }
+   
+   .nav-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #00001c;
+   }
+   
+   .nav-bar button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+   }

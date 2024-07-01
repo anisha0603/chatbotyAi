@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(to bottom, #00001c, #020258);
+    /* #00008b is deep blue, #87cefa is a light blue hashtag#0a0a238 ,mediaqueries*/
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .AppContainer{
+    padding: 30px;
+    font-family: Arial, sans-serif;
+  }
+  .heading-style{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .heading-title-Signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .Header{
+    text-align: left;
+    font-family: Arial, sans-serif;
+  }
+
+  .Title{
+    color: #fff;
+    font-size: 36px;
+    outline: none;
+  }
+  .Subtitle{
+    font-size: 16px;
+    color: #888;
+  }
+  .ChatBotImage{
+    display: flex;
+    justify-content: flex-end;
+    height: 210px;
+    transform: rotate(-0.342rad);
+    margin-right: -20px;
+  }
+  
+  
+  .Form{
+    margin-top: 20px;
+  }
+  
+  .input-container {
+    position: relative;
+    width: 80%;
+    margin: 0px 20px 0px 0px;
+  }
+  
+  .input-logo {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-30%);
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    background-color: white;
+    border: #00000e;
+    border-radius: 5px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 18px 10px 18px 60px; /* Adjust padding to make space for the logo */
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #02021c;
+    color: white;
+  }
+  
+  .input-container input::placeholder {
+    color: #aaa;
+    font-size: 24px;
+     /* Adjust placeholder color as needed */
+  }
+  .SignInButton{
+    width: 100%;
+    padding: 10px;
+    background-color: #050565;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .OrText{
+    text-align: center;
+    margin: 25px 0;
+    font-family: sans-serif;
+    color: #888;
+  }
+  .SocialButton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    background-color: #02021c;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 22px;
+    text-align: left;
+    cursor: pointer;
+  }
+  .button-logo {
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */ /* Space between logo and text */
+  }
+  .button-text{
+    flex-grow: 1;
+    text-align: center;
+  }
